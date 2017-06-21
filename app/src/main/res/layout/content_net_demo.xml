@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_net_demo" tools:context=".netdemo.NetDemoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:text="登录"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:text="注册"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_message_list"
+                android:text="加载消息列表"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_load_other_location"
+                android:text="加载好友位置"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_upload_locations"
+                android:text="上传位置"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_contact_list"
+                android:text="获取联系人列表"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_save_image_to_local"
+                android:text="选择图片并截图保存本地"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_upload_image"
+                android:text="上传头像"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_download_image"
+                android:text="下载头像"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_upload_file"
+                android:text="上传文件"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
